@@ -43,3 +43,102 @@ video {
 // base rules
 // ==================================== */
 @import "bootstrap/scss/bootstrap-grid";
+
+header {
+  text-align: center;
+  background-color: #d3d1cb;
+}
+header,
+img {
+  padding-bottom: 83px;
+}
+main {
+  background-color: black;
+}
+footer img {
+  position: relative;
+  top: -36px;
+  left: 114px;
+}
+.nav-eye {
+  position: relative;
+  top: -95px;
+  text-align: center;
+}
+
+h2 {
+  padding-left: 14px;
+  padding-bottom: 48px;
+  font-size: 40px;
+  color: white;
+  font-family: fakir-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  padding-left: 14px;
+  font-family: omnes-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  padding-bottom: 56px;
+}
+.horaire {
+  padding-bottom: 199px;
+}
+h3 {
+  padding-left: 14px;
+  padding-bottom: 24px;
+  font-size: 20px;
+  color: white;
+  font-family: fakir-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabaret {
+  height: 367px;
+  position: absolute;
+}
+.pictures {
+  padding-top: 85px;
+}
+
+.cocktail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.spectacle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer {
+  position: relative;
+  background-color: #d3d1cb;
+}
+
+footer img {
+  top: -50px;
+}
+
+footer a {
+  text-decoration: none;
+  padding-left: 89px;
+  font-size: 20px;
+  font-family: omnes-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.mail {
+  position: relative;
+  top: 163px;
+  left: -200px;
+}
